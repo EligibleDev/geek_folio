@@ -3,6 +3,17 @@
     margin: 0;
 }
 
+.section{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px;
+}
+
+/* defaul css end */
+
+/* hader css start */
+
 header{
     background-color: #424141;
     color: #ffffff;
@@ -30,7 +41,9 @@ header{
     width: 100px;
 }
 
-main{}
+/* hader css end */
+
+/* banner css start */
 
 .banner-section{
     height: 100vh;
@@ -65,3 +78,30 @@ main{}
 .banner-image{
     width: 300px;
 }
+
+/* banner css end */
+
+/* about css start */
+
+.about-section{
+    padding: 25px 0px;
+}
+
+.about-title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.abt-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-right{
+    text-align: left !important;
+}
+
+/* about css end */
+
