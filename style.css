@@ -30,3 +30,38 @@ header{
     width: 100px;
 }
 
+main{}
+
+.banner-section{
+    height: 100vh;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5),#2e2e2e);
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 165px;
+}
+
+.banner-title{
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.accent-button{
+    margin-top: 20px;
+    padding: 13px 20px;
+    outline: none;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.banner-image{
+    width: 300px;
+}
