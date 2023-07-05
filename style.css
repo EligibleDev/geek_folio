@@ -105,3 +105,23 @@ header{
 
 /* about css end */
 
+/* services section start */
+
+.service-title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center !important;
+    color: #ffffff;
+}
+
+.service-section{
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+    flex-wrap: wrap;
+
+}
+
+
+
+/* services section end */
