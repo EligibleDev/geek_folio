@@ -156,3 +156,55 @@ header{
 }
 
 /* services section end */
+
+/* footer css start */
+
+footer{
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+
+}
+
+.footer-logo{
+    width: 150px;
+}
+
+.som{
+    margin-bottom: 25px;
+}
+
+.footer-link{
+    margin-top: 10px;
+}
+
+.line{
+    line-height: 2em;
+}
+
+/* footer top css end */
+
+.bottom-footer{
+    text-align: center;
+
+    background-color: rgba(0,0,0,0.9);
+
+}
+
+.borderx{
+    border-top: 1px solid #ffffff;
+    background-color: #00000000;
+    color: #ffffff;
+    padding: 25px 0px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+/* 
+hr{
+    width: 80% !important;
+} */
+
+/* footer css end */
